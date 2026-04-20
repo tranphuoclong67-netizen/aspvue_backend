@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nx2YzN9g8Ts=",
+  "dgSpecHash": "ByUDDdXzyeE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\vue-backend\\ServerApi\\ServerApi.csproj",
+  "projectFilePath": "c:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\ServerApi\\ServerApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MSI_GF63\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.14\\microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",
-    "C:\\Users\\MSI_GF63\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\MSI_GF63\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "C:\\Users\\MSI_GF63\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
   ],
   "logs": []
 }

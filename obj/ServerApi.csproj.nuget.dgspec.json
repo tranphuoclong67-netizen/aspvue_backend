@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\vue-backend\\ServerApi\\ServerApi.csproj": {}
+    "c:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\ServerApi\\ServerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\vue-backend\\ServerApi\\ServerApi.csproj": {
+    "c:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\ServerApi\\ServerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\vue-backend\\ServerApi\\ServerApi.csproj",
+        "projectUniqueName": "c:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\ServerApi\\ServerApi.csproj",
         "projectName": "ServerApi",
-        "projectPath": "C:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\vue-backend\\ServerApi\\ServerApi.csproj",
+        "projectPath": "c:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\ServerApi\\ServerApi.csproj",
         "packagesPath": "C:\\Users\\MSI_GF63\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\vue-backend\\ServerApi\\obj\\",
+        "outputPath": "c:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\ServerApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,12 +47,12 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.14, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
