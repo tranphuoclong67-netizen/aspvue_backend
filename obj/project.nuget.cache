@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nx2YzN9g8Ts=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\vue-backend\\ServerApi\\ServerApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MSI_GF63\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.14\\microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",
+    "C:\\Users\\MSI_GF63\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
