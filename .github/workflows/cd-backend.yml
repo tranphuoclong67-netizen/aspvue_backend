@@ -44,3 +44,6 @@ jobs:
 
       - name: Report Production Deployment Status
         run: echo "Backend production deployment triggered on Render and Docker image pushed to Docker Hub."
+      
+      - name: Run Tests
+        run: dotnet test --configuration Release
