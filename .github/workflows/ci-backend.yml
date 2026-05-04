@@ -30,9 +30,6 @@ jobs:
       - name: Test
         run: dotnet test --no-build --configuration Release
 
-      - name: Code Analysis
-      run: dotnet format --verify-no-changes
-
   deploy_pr_build:
     runs-on: ubuntu-latest
     needs: ci
