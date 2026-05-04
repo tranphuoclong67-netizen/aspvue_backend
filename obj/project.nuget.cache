@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RulC1fE+zIw=",
+  "dgSpecHash": "NlYC2fZBfaU=",
   "success": true,
   "projectFilePath": "C:\\Users\\MSI_GF63\\Downloads\\ASPVUE\\ServerApi\\ServerApi.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,8 @@
     "C:\\Users\\MSI_GF63\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\MSI_GF63\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\MSI_GF63\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\MSI_GF63\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
+    "C:\\Users\\MSI_GF63\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\MSI_GF63\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\MSI_GF63\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\MSI_GF63\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",

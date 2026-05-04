@@ -137,3 +137,5 @@ C:\Users\MSI_GF63\Downloads\ASPVUE\ServerApi\obj\Debug\net8.0\ServerApi.genrunti
 C:\Users\MSI_GF63\Downloads\ASPVUE\ServerApi\obj\Debug\net8.0\ref\ServerApi.dll
 C:\Users\MSI_GF63\Downloads\ASPVUE\ServerApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\MSI_GF63\Downloads\ASPVUE\ServerApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\MSI_GF63\Downloads\ASPVUE\ServerApi\bin\Debug\net8.0\Npgsql.dll
+C:\Users\MSI_GF63\Downloads\ASPVUE\ServerApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -7,7 +7,7 @@ using ServerApi.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(
+    options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
