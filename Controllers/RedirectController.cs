@@ -25,6 +25,12 @@ public class RedirectController : ControllerBase
         if (shortUrl == null)
             return NotFound(new { error = "Short URL not found." });
 
+        if (DateTime.UtcNow > shortUrl.ExpiresAt)
+            return Gone();
+
         return Redirect(shortUrl.OriginalUrl);
     }
+
+    private ObjectResult Gone() =>
+        StatusCode(410, new { error = "This link has expired." });
 }

@@ -79,4 +79,31 @@ public class AuthController : ControllerBase
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
+
+    [HttpGet("balance")]
+    [Authorize]
+    public async Task<IActionResult> GetBalance()
+    {
+        var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        var user = await _db.Users.FindAsync(int.Parse(userIdStr!));
+        if (user == null) return NotFound();
+        return Ok(new { balance = user.Balance });
+    }
+
+    [HttpPost("deposit")]
+    [Authorize]
+    public async Task<IActionResult> Deposit([FromBody] DepositRequest request)
+    {
+        if (request.Amount <= 0)
+            return BadRequest(new { error = "Amount must be greater than 0." });
+
+        var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        var user = await _db.Users.FindAsync(int.Parse(userIdStr!));
+        if (user == null) return NotFound();
+
+        user.Balance += request.Amount;
+        await _db.SaveChangesAsync();
+
+        return Ok(new { balance = user.Balance });
+    }
 }

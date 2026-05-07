@@ -12,7 +12,7 @@ using ServerApi.Data;
 namespace ServerApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260504052904_InitialCreate")]
+    [Migration("20260507070133_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -40,6 +40,9 @@ namespace ServerApi.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<string>("OriginalUrl")
                         .IsRequired()
                         .HasColumnType("text");
@@ -59,6 +62,9 @@ namespace ServerApi.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Balance")
+                        .HasColumnType("numeric");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
